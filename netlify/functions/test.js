@@ -11,6 +11,7 @@ exports.handler = async (event) => {
         multiValueQueryStringParameters,
         rawUrl,
         rawQuery,
+        keys: Object.keys(event),
       },
       null,
       2,
